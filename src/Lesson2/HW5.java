@@ -1,4 +1,4 @@
-package com.company;
+package Lesson2;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class HW5 {
         int startingNumber = sc.nextInt();
         System.out.println("Input the ending number of the range: ");
         int endingNumber = sc.nextInt();
-        int randomNumber = (int) (startingNumber + (Math.random() * ((endingNumber - startingNumber) + 1)));
+        int randomNumber = (int) (endingNumber + (Math.random() * ((startingNumber - endingNumber) +1)));
         System.out.println(randomNumber);
     }
 }
