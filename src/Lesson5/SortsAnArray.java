@@ -1,9 +1,11 @@
-package Lesson4;
-
+package Lesson5;
 
 public class SortsAnArray {
     public static void main(String[] args) {
         int arr[] = new int[] {6, 35, 1, 10, 22, 15};
+        sorts(arr);
+    }
+    public static int[] sorts(int[] arr) {
         int temp = 0;
         int i;
         for (i = 0; i < arr.length; i++) {
@@ -18,5 +20,6 @@ public class SortsAnArray {
         for (i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
+        return arr;
     }
 }
