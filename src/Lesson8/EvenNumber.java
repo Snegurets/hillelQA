@@ -17,8 +17,6 @@ public class EvenNumber {
                 return "Error. Try again.";
         }
     }
-
-
     private String getNumberEvenOrOdd() {
         System.out.println("Get your number please: ");
         Scanner sc = new Scanner(System.in);

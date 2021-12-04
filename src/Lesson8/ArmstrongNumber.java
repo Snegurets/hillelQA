@@ -11,7 +11,6 @@ public class ArmstrongNumber {
         String arms = "Number is Armstrong";
         String notArms = "Number is not Armstrong";
 
-
         int remainder;
         int sum = 0;
 
