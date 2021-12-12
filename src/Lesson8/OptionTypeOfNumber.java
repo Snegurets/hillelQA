@@ -7,6 +7,7 @@ public class OptionTypeOfNumber {
         System.out.println("What are you need type of number?:\n 1. Even Number \n 2. Armstrong\n 3. Reverse\n 4. Fibonacci\n 5. Replace");
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
+
         switch(num) {
             case 1:
                 EvenNumber evenNumber = new EvenNumber();

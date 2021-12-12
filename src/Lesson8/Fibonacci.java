@@ -3,6 +3,7 @@ package Lesson8;
 public class Fibonacci {
     public String getFibonacciNumber() {
 
+
         int n1 = 0;
         int n2 = 1;
         int n = 0;

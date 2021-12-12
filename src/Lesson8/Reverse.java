@@ -7,6 +7,7 @@ public class Reverse {
         System.out.println("Get your number please: ");
         Scanner sc = new Scanner(System.in);
         String string = sc.nextLine(), stringTwo = " ";
+
         char ch;
         for (int i = 0; i < string.length(); i++) {
             ch = string.charAt(i);

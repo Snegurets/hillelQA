@@ -8,6 +8,7 @@ public class LoginAndPassword {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
+
     private String login = getStringFromScanner();
     private String pass = getStringFromScanner();
 
